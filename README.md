@@ -20,7 +20,3 @@ Este repositorio contiene la documentación de mis prácticas en entornos contro
 ## 💻 Gestión del Sistema vía CLI (Modo Server)
 Práctica de administración de Windows prescindiendo de la interfaz gráfica (`explorer.exe`).
 
-### Comandos clave aprendidos:
-- **Gestión de procesos:** `tasklist` y `taskkill` para detener procesos bloqueados.
-- **Navegación:** Uso de `cd`, `dir`, `mkdir` y `move` para gestión de archivos.
-- **Instalación técnica:** Uso de `winget` para instalación de herramientas de auditoría.
