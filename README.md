@@ -20,6 +20,7 @@ Este repositorio contiene la documentación de mis prácticas en entornos contro
 ## 💻 Gestión del Sistema vía CLI (Modo Server)
 Práctica de administración de Windows prescindiendo de la interfaz gráfica (`explorer.exe`).
 
-#Solucion:
+# Solucion:
 lo primero que hicimos tenemos que hacer es estrar al boot manager o comunmente conocido como BIOS de la maquina y entrar en el disco donde esta el sistema operativo seleccionando la opcio de CD-ROM/DVD(donde esta la ISO dewindows 11)usando las flechas del teclado y presiona enter se tendria que ver de la siguiente manera: 
-<image src="/screenshots/Boot Manager.png alt="Bios de la maquina">
+
+ <image src="/Screenshots/Boot Manager.png alt="Bios de la maquina">
