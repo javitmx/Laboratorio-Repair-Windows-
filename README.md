@@ -25,7 +25,7 @@ Este repositorio contiene la documentación de mis prácticas en entornos contro
 Práctica de administración de Windows prescindiendo de la interfaz gráfica (`explorer.exe`).
 
 # Solucion:
-lo primero que tenemos que hacer es estrar al boot manager o comunmente conocido como BIOS de la maquina y entrar en el disco donde esta el sistema operativo seleccionando la opcio de CD-ROM/DVD(donde esta la ISO de windows
+lo primero que tenemos que hacer es entrar al boot manager o comunmente conocido como BIOS de la maquina y entrar en el disco donde esta el sistema operativo seleccionando la opcion de CD-ROM/DVD(donde esta la ISO de windows
 11)usando las flechas del teclado que seria la segunda opcion que dice CDROM Drive (1.0) y presiona enter se tendria que ver de la siguiente manera: 
 
 <img src="./screenshots/Boot Manager.png" alt="Bios de la maquina">
