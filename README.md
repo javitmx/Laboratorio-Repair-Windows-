@@ -98,7 +98,8 @@ Busca una que diga "Sistema" o "EFI" y que sea pequeña (100MB O 200MB)
 Escribe `Select partition X`(cambia Xpor el numero de esa particion).
 Escribe: `assign letter=V:`
 Escribe `exit`
-<p aling="center"> 
+
+<p align="center"> 
   <img src="./screenshots/end.png" height="300" alt="end">
 </p>
 
@@ -112,7 +113,8 @@ Solucion aplicada reasignacion del BCD con el comando bcdboot
 ## "Pro-Tip" para tu laboratorio: 
 Si alguna vez el comando simple de bcdboot falla, el "jefe final" de los comandos de arranque es este: 
 `bcdboot C:\Windows /s V: /f ALL` 
-<p aling="center"> 
+
+<p align="center"> 
   <img src="./screenshots/comando universal.png" height="300" alt="comando para todo">
 </p>
 
