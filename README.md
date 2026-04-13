@@ -1,3 +1,4 @@
+
 # Laboratorio-Repair-Windows-
 solucion a la configuracion de el orden de arranque (Boot Priority) formateando con instalacion limpia.
 
@@ -45,7 +46,8 @@ listo ahora teniendo la consola abierta introducimos el siguiente comando
 ahora introducimos el ultimo comando
 <img src="./screenshots/Comando 2.png" alt="command two">
 
-
+y para finalizar le damos metemos el comando exit y se cerrara la consola y saldra un meno el cual le daremos en continuar para que se reinicie la maquina con todo reconstruido y arreglado.
+<img src="./screenshots/Continuar.png" alt="end">
 
 
  
