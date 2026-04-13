@@ -118,4 +118,4 @@ Si alguna vez el comando simple de bcdboot falla, el "jefe final" de los comando
 
 - `/s Z:` Le dice exactamente en que letra de unidad esta la particion de arranque (la que montamos con `diskpart`).
 - `/f ALL` Crea los archivos tanto para BIOS antigua como para UEFI moderna. Es la solucion universal.
-Acostumbrarse a usar `bcdboot`. Muchos ataques de Bootkits (virus que se meten en el arranque) se limpian precisamente regenerando BCD con este comando.
+Acostumbrarse a usar `bcdboot`.Es imprescindible ya que muchos ataques de Bootkits (virus que se meten en el arranque) se limpian precisamente regenerando BCD con este comando.
