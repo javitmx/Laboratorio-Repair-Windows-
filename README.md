@@ -40,7 +40,9 @@ luego nos mandara a un menu contextual y elegimos en la opcion de reparar pc
 <img src="./screenshots/Simbolo del Sistema.png" alt="paso 3">
 
 listo ahora teniendo la consola abierta introducimos el siguiente comando 
-<img src="./screenshots/Comando 1.png" alt="comando one">
+<img src="./screenshots/Comando 1 .png" alt="comando one">
+
+
 
 
  
