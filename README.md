@@ -1,6 +1,10 @@
 # Laboratorio-Repair-Windows-
 solucion a la configuracion de el orden de arranque (Boot Priority) formateando con instalacion limpia.
 
+# problema en cuestion
+ <img src="./screenshots/ERROR.png" alt="fallo del sistema">
+
+
 # 🛠️ Laboratorio de Reparación y Mantenimiento de Windows
 
 Este repositorio contiene la documentación de mis prácticas en entornos controlados (VMware) sobre reparación de sistemas operativos, recuperación de datos y gestión de errores.
@@ -21,6 +25,22 @@ Este repositorio contiene la documentación de mis prácticas en entornos contro
 Práctica de administración de Windows prescindiendo de la interfaz gráfica (`explorer.exe`).
 
 # Solucion:
-lo primero que hicimos tenemos que hacer es estrar al boot manager o comunmente conocido como BIOS de la maquina y entrar en el disco donde esta el sistema operativo seleccionando la opcio de CD-ROM/DVD(donde esta la ISO dewindows 11)usando las flechas del teclado y presiona enter se tendria que ver de la siguiente manera: 
+lo primero que hicimos tenemos que hacer es estrar al boot manager o comunmente conocido como BIOS de la maquina y entrar en el disco donde esta el sistema operativo seleccionando la opcio de CD-ROM/DVD(donde esta la ISO de windows
+11)usando las flechas del teclado y presiona enter se tendria que ver de la siguiente manera: 
 
- <image src="/Screenshots/Boot Manager.png alt="Bios de la maquina">
+<img src="./screenshots/Boot Manager.png" alt="Bios de la maquina">
+
+luego nos mandara a un menu contextual y elegimos en la opcion de reparar pc
+ <img src="./screenshots/reparar.png" alt="menu contextual">
+ 
+ luego le damos en la opcion de solucionar problemas del sistema
+<img src="./screenshots/Solucionar Problemas.png" alt="guia">
+
+ lo siguiente que necesitamos es tener el simbolo del sistema 
+<img src="./screenshots/Simbolo del Sistema.png" alt="paso 3">
+
+listo ahora teniendo la consola abierta introducimos el siguiente comando 
+<img src="./screenshots/Comando 1.png" alt="comando one">
+
+
+ 
