@@ -43,7 +43,7 @@ listo ahora teniendo la consola abierta introducimos el siguiente comando
 <img src="./screenshots/Comando 1 .png" alt="command one">
 
 ahora introducimos el ultimo comando
-<img src="./screenshots/Comando 2 .png" alt="command two">
+<img src="./screenshots/Comando 2.png" alt="command two">
 
 
 
