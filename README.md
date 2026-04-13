@@ -1,19 +1,21 @@
-
 # Laboratorio-Repair-Windows-
-solucion a la configuracion de el orden de arranque (Boot Priority) formateando con instalacion limpia.
+Solución a la configuración del orden de arranque (Boot Priority) realizando una instalación limpia y reparación de BCD.
 
-# problema en cuestion
- <img src="./screenshots/ERROR.png" alt="fallo del sistema">
+## 🚨 Problema en cuestión
+<p align="center">
+  <img src="./screenshots/ERROR.png" height="300" alt="fallo del sistema">
+</p>
 
+---
 
-# 🛠️ Laboratorio de Reparación y Mantenimiento de Windows
+## 🛠️ Laboratorio de Reparación y Mantenimiento de Windows
 
-Este repositorio contiene la documentación de mis prácticas en entornos controlados (VMware) sobre reparación de sistemas operativos, recuperación de datos y gestión de errores.
+Este repositorio contiene la documentación de mis prácticas en entornos controlados (**VMware**) sobre reparación de sistemas operativos, recuperación de datos y gestión de errores.
 
-## 🩺 Práctica 1: Recuperación del Arranque (Boot Repair) en Windows 11
+### 🩺 Práctica 1: Recuperación del Arranque (Boot Repair) en Windows 11
 **Problema:** El sistema no inicia debido a la corrupción del archivo BCD (Boot Configuration Data). Error: `0xc000000f`.
 
-### Pasos realizados:
+#### Pasos realizados:
 1. **Simulación de fallo:** Eliminación de la partición EFI y el archivo BCD mediante `diskpart` y comandos `del`.
 2. **Entorno de recuperación:** Inicio desde ISO de Windows 11 -> Solucionar problemas -> CMD.
 3. **Comandos de reparación utilizados:**
@@ -22,32 +24,57 @@ Este repositorio contiene la documentación de mis prácticas en entornos contro
 
 **Resultado:** Sistema recuperado exitosamente sin pérdida de datos.
 
+---
+
 ## 💻 Gestión del Sistema vía CLI (Modo Server)
 Práctica de administración de Windows prescindiendo de la interfaz gráfica (`explorer.exe`).
 
-# Solucion:
-lo primero que tenemos que hacer es entrar al boot manager o comunmente conocido como BIOS de la maquina y entrar en el disco donde esta el sistema operativo seleccionando la opcion de CD-ROM/DVD(donde esta la ISO de windows
-11)usando las flechas del teclado que seria la segunda opcion que dice CDROM Drive (1.0) y presiona enter se tendria que ver de la siguiente manera: 
+## ✅ Solución Paso a Paso:
 
-<img src="./screenshots/Boot Manager.png" alt="Bios de la maquina">
+### 1. Configuración de BIOS/Boot Manager
+Lo primero es acceder al **Boot Manager** (o BIOS). Debemos priorizar el arranque desde el medio que contiene la ISO de Windows 11 (CD-ROM/DVD). Selecciona la opción **CD-ROM Drive** usando las flechas y presiona `Enter`.
 
-luego nos mandara a un menu contextual y elegimos en la opcion de reparar pc
- <img src="./screenshots/reparar.png" alt="menu contextual">
- 
- luego le damos en la opcion de solucionar problemas del sistema
-<img src="./screenshots/Solucionar Problemas.png" alt="guia">
+<p align="center">
+  <img src="./screenshots/Boot Manager.png" height="300" alt="Bios de la maquina">
+</p>
 
- lo siguiente que necesitamos es tener el simbolo del sistema 
-<img src="./screenshots/Simbolo del Sistema.png" alt="paso 3">
+### 2. Acceso al Menú de Recuperación
+Una vez cargue el instalador, selecciona la opción **Reparar el equipo** en la esquina inferior izquierda.
 
-listo ahora teniendo la consola abierta introducimos el siguiente comando 
-<img src="./screenshots/Comando 1 .png" alt="command one">
+<p align="center">
+  <img src="./screenshots/reparar.png" height="300" alt="menu contextual">
+</p>
 
-ahora introducimos el ultimo comando
-<img src="./screenshots/Comando 2.png" alt="command two">
+### 3. Solucionar Problemas
+Dentro del menú contextual, elegimos la opción de **Solucionar problemas**.
 
-y para finalizar le damos metemos el comando exit y se cerrara la consola y saldra un meno el cual le daremos en continuar para que se reinicie la maquina con todo reconstruido y arreglado.
-<img src="./screenshots/Continuar.png" alt="end">
+<p align="center">
+  <img src="./screenshots/Solucionar Problemas.png" height="300" alt="guia">
+</p>
 
+### 4. Abrir Símbolo del Sistema
+Para realizar la reparación manual, iniciamos el **Símbolo del sistema**.
 
- 
+<p align="center">
+  <img src="./screenshots/Simbolo del Sistema.png" height="300" alt="paso 3">
+</p>
+
+### 5. Ejecución de Comandos de Reparación
+Con la consola abierta, introducimos el primer comando para reconstruir el almacén BCD:
+
+<p align="center">
+  <img src="./screenshots/Comando 1 .png" height="300" alt="command one">
+</p>
+
+Luego, ejecutamos el comando final para asegurar la correcta ruta de arranque:
+
+<p align="center">
+  <img src="./screenshots/Comando 2.png" height="300" alt="command two">
+</p>
+
+### 6. Finalización
+Para terminar, escribimos `exit` para cerrar la consola y seleccionamos **Continuar**. El sistema se reiniciará con el arranque totalmente reconstruido y funcional.
+
+<p align="center">
+  <img src="./screenshots/Continuar.png" height="300" alt="end">
+</p>
